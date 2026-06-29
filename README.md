@@ -6,7 +6,7 @@
 ---
 
 ## The Role
-**Senior AI Engineer — Founding Team**  
+**Senior AI Engineer — Founding Team Redrob AI · Pune / Noida, India**
 
 ---
 
