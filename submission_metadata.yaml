@@ -18,7 +18,7 @@ team_members:
 # Code and reproducibility
 # ============================================================================
 github_repo: "https://github.com/sainiaaryan02-del/AI-Recruiter"  
-sandbox_link: "https://huggingface.co/spaces/YOUR_USERNAME/redrob-ranker"  # ← FILL IN
+sandbox_link: "https://redesigned-space-umbrella-jjwr649xx6x6fjj76.github.dev/" 
 
 reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./output/submission.csv --top 100"
 
