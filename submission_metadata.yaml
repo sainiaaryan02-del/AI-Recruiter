@@ -1,26 +1,23 @@
 # Redrob Hackathon — Submission Metadata
-# Fill in YOUR details before submitting
-
 # ============================================================================
 # Team identity
 # ============================================================================
-team_name: "your-team-name-here"          # ← FILL IN: your team name
+team_name: "Legacy"         
 
 primary_contact:
-  name: "Your Full Name"                  # ← FILL IN
-  email: "your@email.com"                 # ← FILL IN
-  phone: "+91-XXXXXXXXXX"                 # ← FILL IN
+  name: "Aaryan Saini"                 
+  email: "sainiaaryan02@gmail.com"                
+  phone: "+91-9022865683"                 
 
 team_members:
-  - name: "Your Full Name"
-    email: "your@email.com"
+  - name: "Aaryan Saini"
+    email: "sainiaaryan02@gmail.com"
     role: "ML Engineer"
 
 # ============================================================================
 # Code and reproducibility
 # ============================================================================
-github_repo: "https://github.com/YOUR_USERNAME/ai-recruiter"  # ← FILL IN after upload
-
+github_repo: "https://github.com/sainiaaryan02-del/AI-Recruiter"  
 sandbox_link: "https://huggingface.co/spaces/YOUR_USERNAME/redrob-ranker"  # ← FILL IN
 
 reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./output/submission.csv --top 100"
