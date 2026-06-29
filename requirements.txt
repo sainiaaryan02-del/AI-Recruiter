@@ -1,0 +1,8 @@
+# AI Candidate Ranking System — Redrob Hackathon
+# No external packages required — pure Python standard library only
+# (json, csv, math, re, os, sys, argparse, dataclasses, datetime)
+#
+# Optional — if you want to extend with embeddings later:
+# sentence-transformers>=2.7.0
+# numpy>=1.26.0
+# faiss-cpu>=1.8.0
