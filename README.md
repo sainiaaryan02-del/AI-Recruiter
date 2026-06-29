@@ -1,7 +1,7 @@
-# AI Candidate Ranking System
-### Redrob Hackathon Intelligent Candidate Discovery & Ranking
+# AI Candidate Discovery & Ranking System
+### Redrob Hackathon for Intelligent Candidate Discovery & Ranking
 
-> Ranks candidates the way a great recruiter would — not by matching keywords, but by understanding who genuinely fits.
+> Ranks candidates the way a great recruiter would not by matching keywords, but by understanding who genuinely fits.
 
 ---
 
@@ -12,7 +12,7 @@
 
 ## What This Does
 
-Reads 100,000 candidate profiles and ranks them for the above role using 6 weighted dimensions pulled directly from the job description:
+Reads candidate profiles and ranks them for the above role using 6 weighted dimensions pulled directly from the job description:
 
 | Dimension | Weight | What it measures |
 |---|---|---|
