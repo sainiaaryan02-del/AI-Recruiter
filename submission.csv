@@ -1,0 +1,51 @@
+candidate_id,rank,score,reasoning
+CAND_0000031,1,1.0000,"Recommendation Systems Engineer, 6.0yr, Hyderabad, Telangana, India. Retrieval skills: Embeddings, Faiss, Information Retrieval, Pinecone. Product cos: Swiggy, Mad Street Den. Responsive (91% recruiter reply rate)."
+CAND_0000038,2,0.4363,"Java Developer, 6.7yr, Coimbatore, Tamil Nadu, India. Retrieval skills: Weaviate. Product cos: Swiggy, Hooli. Long notice (90d)."
+CAND_0000001,3,0.3579,"Backend Engineer, 6.9yr, Toronto, Canada. Retrieval skills: Milvus."
+CAND_0000010,4,0.2813,"Data Engineer, 4.6yr, London, UK. Retrieval skills: Elasticsearch. Product cos: Ola. Long notice (120d)."
+CAND_0000043,5,0.2646,"Cloud Engineer, 8.3yr, Chandigarh, Chandigarh, India. Retrieval skills: Elasticsearch, Opensearch. Product cos: Swiggy. Low response rate (4%) — may be hard to reach. Inactive 177d — availability uncertain. Long notice (120d)."
+CAND_0000023,6,0.2130,"Software Engineer, 3.7yr, New York, USA. Product cos: Flipkart. 30d notice. GitHub activity score 48."
+CAND_0000035,7,0.1611,"Full Stack Developer, 4.3yr, Hyderabad, Telangana, India. Inactive 141d — availability uncertain."
+CAND_0000025,8,0.1481,"Disqualified: Wrong domain title 'Frontend Engineer' with no ML evidence. Title: Frontend Engineer, 7.3yrs."
+CAND_0000027,9,0.1397,"Disqualified: Consulting-only career (TCS/Infosys/Wipro/etc). Title: DevOps Engineer, 3.9yrs."
+CAND_0000016,10,0.1372,"Disqualified: Wrong domain title 'Accountant' with no ML evidence. Title: Accountant, 5.3yrs."
+CAND_0000005,11,0.1322,"Disqualified: Wrong domain title 'Accountant' with no ML evidence. Title: Accountant, 11.0yrs."
+CAND_0000045,12,0.1321,"Disqualified: Wrong domain title 'Project Manager' with no ML evidence. Title: Project Manager, 12.2yrs."
+CAND_0000041,13,0.1298,"Disqualified: Wrong domain title 'Operations Manager' with no ML evidence. Title: Operations Manager, 13.7yrs."
+CAND_0000037,14,0.1241,"Disqualified: Wrong domain title 'Business Analyst' with no ML evidence. Title: Business Analyst, 14.3yrs."
+CAND_0000048,15,0.1222,"Disqualified: Wrong domain title 'Mobile Developer' with no ML evidence. Title: Mobile Developer, 9.7yrs."
+CAND_0000007,16,0.1177,"Disqualified: Wrong domain title 'Civil Engineer' with no ML evidence. Title: Civil Engineer, 5.5yrs."
+CAND_0000042,17,0.1150,"Disqualified: Wrong domain title 'HR Manager' with no ML evidence. Title: HR Manager, 5.0yrs."
+CAND_0000046,18,0.1147,"Disqualified: Wrong domain title 'Mechanical Engineer' with no ML evidence. Title: Mechanical Engineer, 7.8yrs."
+CAND_0000033,19,0.1135,"Disqualified: Wrong domain title 'Graphic Designer' with no ML evidence. Title: Graphic Designer, 8.6yrs."
+CAND_0000020,20,0.1123,"Disqualified: Wrong domain title 'Mechanical Engineer' with no ML evidence. Title: Mechanical Engineer, 6.3yrs."
+CAND_0000024,21,0.1068,"Disqualified: Wrong domain title 'HR Manager' with no ML evidence. Title: HR Manager, 7.5yrs."
+CAND_0000021,22,0.1030,"Disqualified: Wrong domain title 'Project Manager' with no ML evidence. Title: Project Manager, 14.5yrs."
+CAND_0000014,23,0.0985,"Disqualified: Wrong domain title 'Frontend Engineer' with no ML evidence. Title: Frontend Engineer, 8.4yrs."
+CAND_0000029,24,0.0978,"Disqualified: Wrong domain title 'Business Analyst' with no ML evidence. Title: Business Analyst, 7.2yrs."
+CAND_0000002,25,0.0975,"Disqualified: Wrong domain title 'Operations Manager' with no ML evidence. Title: Operations Manager, 12.5yrs."
+CAND_0000047,26,0.0923,"Disqualified: Wrong domain title 'Project Manager' with no ML evidence. Title: Project Manager, 2.4yrs."
+CAND_0000040,27,0.0822,"Disqualified: Wrong domain title 'Customer Support' with no ML evidence. Title: Customer Support, 1.6yrs."
+CAND_0000044,28,0.0816,"Disqualified: Wrong domain title 'Frontend Engineer' with no ML evidence. Title: Frontend Engineer, 5.7yrs."
+CAND_0000008,29,0.0798,"Disqualified: Wrong domain title 'Operations Manager' with no ML evidence. Title: Operations Manager, 3.6yrs."
+CAND_0000049,30,0.0788,"Disqualified: Wrong domain title 'Mechanical Engineer' with no ML evidence. Title: Mechanical Engineer, 11.8yrs."
+CAND_0000050,31,0.0754,"Disqualified: Wrong domain title 'Business Analyst' with no ML evidence. Title: Business Analyst, 13.5yrs."
+CAND_0000028,32,0.0753,"Disqualified: Wrong domain title 'Operations Manager' with no ML evidence. Title: Operations Manager, 1.1yrs."
+CAND_0000004,33,0.0749,"Disqualified: Wrong domain title 'Marketing Manager' with no ML evidence. Title: Marketing Manager, 3.8yrs."
+CAND_0000018,34,0.0687,"Disqualified: Wrong domain title 'Frontend Engineer' with no ML evidence. Title: Frontend Engineer, 6.6yrs."
+CAND_0000006,35,0.0641,"Disqualified: Wrong domain title 'Business Analyst' with no ML evidence. Title: Business Analyst, 6.0yrs."
+CAND_0000034,36,0.0600,"Disqualified: Wrong domain title 'Business Analyst' with no ML evidence. Title: Business Analyst, 14.5yrs."
+CAND_0000003,37,0.0321,"Disqualified: Wrong domain title 'Customer Support' with no ML evidence. Title: Customer Support, 1.1yrs."
+CAND_0000009,38,0.0000,Flagged honeypot — Wrong domain title 'Mechanical Engineer' with no ML evidence.
+CAND_0000011,39,0.0000,Flagged honeypot — .
+CAND_0000012,40,0.0000,Flagged honeypot — Wrong domain title 'Operations Manager' with no ML evidence.
+CAND_0000013,41,0.0000,Flagged honeypot — Wrong domain title 'Civil Engineer' with no ML evidence.
+CAND_0000015,42,0.0000,Flagged honeypot — .
+CAND_0000017,43,0.0000,Flagged honeypot — Wrong domain title 'Accountant' with no ML evidence.
+CAND_0000019,44,0.0000,Flagged honeypot — Wrong domain title 'Project Manager' with no ML evidence.
+CAND_0000022,45,0.0000,Flagged honeypot — Wrong domain title 'Mechanical Engineer' with no ML evidence.
+CAND_0000026,46,0.0000,Flagged honeypot — Wrong domain title 'Graphic Designer' with no ML evidence.
+CAND_0000030,47,0.0000,Flagged honeypot — Wrong domain title 'Marketing Manager' with no ML evidence.
+CAND_0000032,48,0.0000,Flagged honeypot — Wrong domain title '.NET Developer' with no ML evidence.
+CAND_0000036,49,0.0000,Flagged honeypot — Wrong domain title 'Project Manager' with no ML evidence.
+CAND_0000039,50,0.0000,Flagged honeypot — Wrong domain title 'Marketing Manager' with no ML evidence.

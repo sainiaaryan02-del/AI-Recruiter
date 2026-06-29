@@ -1,0 +1,89 @@
+# Redrob Hackathon — Submission Metadata
+# Fill in YOUR details before submitting
+
+# ============================================================================
+# Team identity
+# ============================================================================
+team_name: "your-team-name-here"          # ← FILL IN: your team name
+
+primary_contact:
+  name: "Your Full Name"                  # ← FILL IN
+  email: "your@email.com"                 # ← FILL IN
+  phone: "+91-XXXXXXXXXX"                 # ← FILL IN
+
+team_members:
+  - name: "Your Full Name"
+    email: "your@email.com"
+    role: "ML Engineer"
+
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+github_repo: "https://github.com/YOUR_USERNAME/ai-recruiter"  # ← FILL IN after upload
+
+sandbox_link: "https://huggingface.co/spaces/YOUR_USERNAME/redrob-ranker"  # ← FILL IN
+
+reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./output/submission.csv --top 100"
+
+# ============================================================================
+# Compute environment
+# ============================================================================
+compute:
+  platform: "Local CPU"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.11"
+  os: "Ubuntu / macOS"
+  uses_gpu_for_inference: false         # No GPU needed
+  has_network_during_ranking: false     # No API calls during ranking
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+
+# ============================================================================
+# AI tools declaration
+# ============================================================================
+ai_tools_used:
+  - "Claude"
+
+ai_usage_summary: |
+  Used Claude for architecture discussion and code review.
+  No candidate data was fed to any external LLM.
+  Ranking is fully deterministic — no LLM API calls during ranking.
+
+# ============================================================================
+# Approach summary
+# ============================================================================
+methodology_summary: |
+  Multi-dimensional candidate ranking engine with 6 weighted scoring
+  dimensions derived directly from the job description:
+  - Retrieval & Ranking Skills (30%): Pinecone, FAISS, Weaviate,
+    Elasticsearch, Embeddings, Sentence Transformers
+  - Career Context & Company Fit (26%): product companies vs consulting,
+    title trajectory, leadership evidence
+  - Applied ML Depth pre-LLM era (18%): XGBoost, LTR, BM25, PyTorch,
+    fine-tuning — rewards genuine depth over keyword presence
+  - Experience Band (12%): 5-9 yr ideal, disqualifier pattern detection
+  - Location & Logistics (9%): Pune/Noida, notice period, work mode
+  - Education Signal (5%): tier × field relevance
+
+  Final score = Composite × Behavioral Multiplier (0.10-1.0).
+  Behavioral multiplier built from 23 Redrob signals covering
+  availability (40%), engagement quality (38%), and profile
+  credibility (22%).
+
+  Trap detection: consulting-only careers capped at 12/100,
+  ghost candidates down-weighted via exponential recency decay,
+  keyword stuffers caught by career history text mining,
+  honeypots detected via timeline and skill-duration consistency checks.
+
+  Runtime: ~18 seconds for 100K candidates on CPU.
+
+# ============================================================================
+# Declarations
+# ============================================================================
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true
