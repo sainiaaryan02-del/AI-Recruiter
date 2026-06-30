@@ -1,7 +1,7 @@
 # AI Candidate Ranking System
 ### Redrob Hackathon — Intelligent Candidate Discovery & Ranking
 
-Ranks 100,000 candidates for the **Senior AI Engineer — Founding Team** role at Redrob AI (Pune/Noida) using a 6-dimension scoring engine built directly from the job description.
+Ranks candidates for the **Senior AI Engineer — Founding Team** role at Redrob AI (Pune/Noida) using a 6-dimension scoring engine built directly from the job description.
 
 ---
 
